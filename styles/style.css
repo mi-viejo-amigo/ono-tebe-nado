@@ -154,7 +154,7 @@ body {
 }
 
 .lots {
-  
+  padding: 0 24px;
   margin: 180px auto 179px;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -196,6 +196,7 @@ body {
   z-index: 2;
   min-height: 600px;
   background-size: cover;
+  min-width: 334px;
 }
 
 .card__title {
